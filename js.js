@@ -22,6 +22,8 @@ foterbtn.addEventListener("click", () => {
     window.scrollTo(0, 0)
 })
 
+let xy = 3
+
 let like = document.querySelectorAll("svg")
 like.forEach((e) => {
     e.addEventListener("click", (e) => {
