@@ -10,7 +10,6 @@ navbtn.addEventListener("click", () => {
     ww.classList.add("wr")
 
 })
-
 window.addEventListener("click", (e) => {
     if (e.target == ww) {
         menumobils.classList.remove("menu_mobils--open");
